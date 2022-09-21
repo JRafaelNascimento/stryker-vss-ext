@@ -10,5 +10,5 @@ Parameters include:
 
 ## Release notes
 
-**New in 1.0.0**
+**New in 1.0.2**
 - Runs Stryker .NET Mutation tests for all configured projects;

@@ -1,6 +1,7 @@
 import * as tl from 'azure-pipelines-task-lib/task';
 
 const strykerAppPython: string  = "https://gist.githubusercontent.com/JRafaelNascimento/3a6146b6e4d0a4db411ff4813f92e74b/raw/a2e5e30cee957748bbb5eb74846656da74cc0c90/stryker-solution-script.py";
+const dotnetStrykerVersion: string  = "2.1.2";
 
 async function run() {
     try {
@@ -8,6 +9,7 @@ async function run() {
         var configFilePath: string = tl.getInput('configFilePath', true);
 
         // install tools
+        await tl.exec('dotnet', ["tool", "install", "-g", "dotnet-stryker", "--version", dotnetStrykerVersion]);
         await tl.exec('wget', ["-O", "stryker.py", strykerAppPython]);
 
         // execute integration tests
