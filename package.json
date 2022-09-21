@@ -1,29 +1,29 @@
 {
-  "name": "runscope-vs-ext",
-  "version": "1.1.7",
-  "description": "Runscope Integration Test for Azure Devops",
+  "name": "stryker-vss-ext",
+  "version": "0.1.0",
+  "description": "Allows you to run stryker mutation tests for a .NET solution in azure pipelines",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "publish": "tfx extension create",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/ThiagoBarradas/runscope-vss-ext#readme",
+  "homepage": "https://github.com/JRafaelNascimento/stryker-vss-ext#readme",
   "bugs": {
-    "url": "https://github.com/ThiagoBarradas/runscope-vss-ext/issues"
+    "url": "https://github.com/JRafaelNascimento/stryker-vss-ext/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThiagoBarradas/runscope-vss-ext.git"
+    "url": "git+https://github.com/JRafaelNascimento/stryker-vss-ext.git"
   },
   "keywords": [
     "azure",
     "devops",
-    "runscope",
+    "stryker",
     "test",
     "integration"
   ],
-  "author": "Thiago Barradas",
+  "author": "Rafael Nascimento",
   "license": "MIT",
   "dependencies": {
     "azure-pipelines-task-lib": "^2.8.0"

@@ -1,16 +1,16 @@
 {
     "manifestVersion": 1,
-    "id": "runscopetest",
-    "publisher": "ThiagoBarradas",
-    "version": "1.1.7",
-    "name": "Runscope Integration Test",
-    "description": "Allows you to run runscope tests in azure pipelines",
+    "id": "stryker-mutation-test",
+    "publisher": "RafaelNascimento",
+    "version": "0.1.0",
+    "name": "Stryker Mutation Test Solution",
+    "description": "Allows you to run stryker mutation tests for a .NET solution in azure pipelines",
     "public": true,
     "links": {
-        "home": { "uri": "https://github.com/ThiagoBarradas/runscope-vss-ext#readme" },
-        "repository": { "uri": "https://github.com/ThiagoBarradas/runscope-vss-ext" },
-        "support": { "uri": "https://github.com/ThiagoBarradas/runscope-vss-ext/issues" },
-        "getstarted": { "uri": "https://github.com/ThiagoBarradas/runscope-vss-ext#readme" },
+        "home": { "uri": "https://github.com/JRafaelNascimento/stryker-vss-ext#readme" },
+        "repository": { "uri": "https://github.com/JRafaelNascimento/stryker-vss-ext" },
+        "support": { "uri": "https://github.com/JRafaelNascimento/stryker-vss-ext/issues" },
+        "getstarted": { "uri": "https://github.com/JRafaelNascimento/stryker-vss-ext#readme" },
         "privacypolicy": { "uri" : "https://gist.github.com/ThiagoBarradas/eb56552b4a71cf52141b85a6afa0e526" }
     },
     "categories": [
@@ -19,11 +19,8 @@
     "tags": [
         "test",
         "tests",
-        "integration",
-        "smoke",
-        "runscope",
-        "api",
-        "release",
+        "mutation",
+        "stryker",
         "build"
     ],
     "icons": {
@@ -34,15 +31,15 @@
     ],
     "content": {
         "details": { "path": "README.md" },
-        "license": { "path": "LICENSE" }
+        "license": { "path": "LICENSE.md" }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/ThiagoBarradas/runscope-vss-ext"
+        "uri": "https://github.com/JRafaelNascimento/stryker-vss-ext"
     },
     "contributions": [
         {
-            "id": "runscopetest-task",
+            "id": "stryker-solution-test-task",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
@@ -52,7 +49,7 @@
     ],
     "files": [
         { 
-            "path": "task" 
+            "path": "src/strykersolutiontest" 
         },
         { 
             "path": "images", 

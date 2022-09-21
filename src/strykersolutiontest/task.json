@@ -1,0 +1,39 @@
+{
+    "id": "fa4ce35a-7954-4554-8727-32b3c450aa80",
+    "name": "stryker-solution-test",
+    "friendlyName": "Stryker Mutation Test Solution",
+    "description": "Allows you to run stryker mutation tests for a .NET solution in azure pipelines",
+    "helpMarkDown": "[More Information](https://github.com/JRafaelNascimento/stryker-dotnet-solution)",
+    "author": "Rafael Nascimento",
+    "preview": false,
+    "showEnvironmentVariables": true,
+    "instanceNameFormat" : "Stryker Solution Mutation Test",
+    "category": "Test",
+    "version": {
+      "Major": 0,
+      "Minor": 1,
+      "Patch": 0
+    },
+    "groups": [
+      {
+          "name": "advanced",
+          "displayName": "Advanced",
+          "isExpanded": false
+      }
+    ],
+    "inputs": [
+      {
+        "name": "configFilePath",
+        "type": "string",
+        "label": "Configuration File Path",
+        "defaultValue": "",
+        "required": true,
+        "helpMarkDown": "[Configuration File Path](https://github.com/JRafaelNascimento/stryker-dotnet-solution)"
+      }
+    ],
+    "execution": {
+      "Node": {
+        "target": "index.js"
+      }
+    }
+  }
