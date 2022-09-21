@@ -1,7 +1,7 @@
 {
   "name": "stryker-vss-ext",
-  "version": "0.1.0",
-  "description": "Allows you to run stryker mutation tests for a .NET solution in azure pipelines",
+  "version": "1.0.0",
+  "description": "Allows you to run Stryker Mutation tests for a .NET solution in azure pipelines",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -19,9 +19,10 @@
   "keywords": [
     "azure",
     "devops",
+    "solution",
     "stryker",
     "test",
-    "integration"
+    "mutation"
   ],
   "author": "Rafael Nascimento",
   "license": "MIT",

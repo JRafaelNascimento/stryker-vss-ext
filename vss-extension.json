@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1,
-    "id": "stryker-mutation-test",
+    "id": "stryker-mutation-test-solution",
     "publisher": "RafaelNascimento",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "Stryker Mutation Test Solution",
-    "description": "Allows you to run stryker mutation tests for a .NET solution in azure pipelines",
+    "description": "Allows you to run Stryker Mutation tests for a .NET solution in azure pipelines",
     "public": true,
     "links": {
         "home": { "uri": "https://github.com/JRafaelNascimento/stryker-vss-ext#readme" },
@@ -18,9 +18,9 @@
     ],
     "tags": [
         "test",
-        "tests",
         "mutation",
         "stryker",
+        "solution",
         "build"
     ],
     "icons": {
