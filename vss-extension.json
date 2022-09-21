@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "stryker-mutation-test-solution",
     "publisher": "RafaelNascimento",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Stryker Mutation Test Solution",
     "description": "Allows you to run Stryker Mutation tests for a .NET solution in azure pipelines",
     "public": true,
@@ -58,7 +58,7 @@
         },
         { 
             "path": "node_modules", 
-            "packagePath": "src/strykersolutiontest/node_modules" 
+            "packagePath": "strykersolutiontest/node_modules" 
         }
     ]
 }
