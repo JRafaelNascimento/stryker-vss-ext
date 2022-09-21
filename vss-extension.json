@@ -44,12 +44,13 @@
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
-            "properties": { "name": "task" }
+            "properties": { "name": "strykersolutiontest" }
         }
     ],
     "files": [
         { 
-            "path": "src/strykersolutiontest" 
+            "path": "src/strykersolutiontest" ,
+            "packagePath": "strykersolutiontest" 
         },
         { 
             "path": "images", 
@@ -57,7 +58,7 @@
         },
         { 
             "path": "node_modules", 
-            "packagePath": "task/node_modules" 
+            "packagePath": "src/strykersolutiontest/node_modules" 
         }
     ]
 }
