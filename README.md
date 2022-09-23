@@ -23,10 +23,10 @@ Also, its possible to configure directly to Azure Pipeline YAML:
 
 ## Release notes
 
-**New in 1.0.2**
+**New in 1.0.3**
 - Runs Stryker .NET Mutation tests for all configured projects;
 
 ## Related Links
 
-[Visual Studio Market Place](https://marketplace.visualstudio.com/items?itemName=RafaelNascimento.stryker-mutation-test-solution)
-[Stryker Dotnet Solution Repository](https://github.com/JRafaelNascimento/stryker-dotnet-solution)
+- [Visual Studio Market Place](https://marketplace.visualstudio.com/items?itemName=RafaelNascimento.stryker-mutation-test-solution)
+- [Stryker Dotnet Solution Repository](https://github.com/JRafaelNascimento/stryker-dotnet-solution)

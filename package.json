@@ -1,6 +1,6 @@
 {
   "name": "stryker-vss-ext",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Allows you to run Stryker Mutation tests for a .NET solution in azure pipelines",
   "main": "index.js",
   "scripts": {
