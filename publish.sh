@@ -11,6 +11,7 @@ cp {*.json,*.md} dist
 # Install Dependencies
 cd dist
 npm install 
+npm audit fix --force
 
 # Compile Typescript
 tsc 
