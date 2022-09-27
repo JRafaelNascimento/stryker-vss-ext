@@ -9,6 +9,7 @@ Add a new task, select **Stryker Mutation Test Solution** from the **Test** cate
 
 Parameters include:
 - **Config File Path**: Path to Stryker .NET Solution configuration file. [Click here to read more](https://github.com/JRafaelNascimento/stryker-dotnet-solution#readme)
+- **Dotnet Stryker Version**: .NET Stryker Version.
 
 ![Stryker Mutation Test Config](images/stryker-mutation-solution-config.png)
 
@@ -19,11 +20,12 @@ Also, its possible to configure directly to Azure Pipeline YAML:
   displayName: Mutation Tests
   inputs:
     configFilePath: 'tests/stryker-multi-project-config.json'
+    dotnetStrykerVersion: '2.1.2'
 ```
 
 ## Release notes
 
-**New in 1.0.4**
+**New in 1.0.7**
 - Runs Stryker .NET Mutation tests for all configured projects;
 
 ## Related Links
