@@ -25,7 +25,7 @@ Also, its possible to configure directly to Azure Pipeline YAML:
 
 ## Release notes
 
-**New in 1.0.7**
+**New in 1.0.8**
 - Runs Stryker .NET Mutation tests for all configured projects;
 
 ## Related Links

@@ -1,6 +1,6 @@
 import * as tl from 'azure-pipelines-task-lib/task';
 
-const strykerAppPython: string  = "https://gist.githubusercontent.com/JRafaelNascimento/3a6146b6e4d0a4db411ff4813f92e74b/raw/76eaa88d6e101291fa9460b0308d8ac5b9601162/stryker-solution-script.py";
+const strykerAppPython: string  = "https://gist.githubusercontent.com/JRafaelNascimento/3a6146b6e4d0a4db411ff4813f92e74b/raw/bdba3e9146971a34ae8981a4762c094a1bc82b7c/stryker-solution-script.py";
 
 async function run() {
     try {
